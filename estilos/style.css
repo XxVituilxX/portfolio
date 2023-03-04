@@ -134,6 +134,13 @@ body{
     }
     .apresentacao {
         flex-direction:column-reverse
+    }.apresentacao__links__link {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid var(--cor-terciaria);
+        width: 60%;
+
     }
     
 }
